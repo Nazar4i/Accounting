@@ -1,0 +1,22 @@
+<div class="title-block">
+    <h3 class="title">
+        Страница записей <span class="sparkline bar"></span>
+    </h3>
+</div>
+
+<section class="section text-center" *ngIf="!isLoaded"><mm-loader></mm-loader></section>
+<section class="section" *ngIf="isLoaded">
+    <div class="row">
+        <div class="col-md-6">
+            <mm-add-event [categories]="categories"></mm-add-event>
+        </div>
+        <div class="col-md-6">
+            <mm-add-category (onCategoryAdd)="newCategoryAdded($event)"></mm-add-category>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <mm-edit-category [categories]="categories" (onCategoryEdit)="categoryWasEdited($event)"></mm-edit-category>
+        </div>
+    </div>
+</section>

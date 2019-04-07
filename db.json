@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "karpynnv@gmail.com",
+      "password": "12345678",
+      "name": "Администратор"
+    },
+    {
+      "email": "daria@gmail.com",
+      "password": "111111",
+      "name": "Daria",
+      "id": 2
+    },
+    {
+      "email": "wfm@mail.ru",
+      "password": "123456",
+      "name": "nazar",
+      "id": 3
+    }
+  ],
+  "bill": {
+    "value": 20000,
+    "currency": "UAH"
+  },
+  "categories": [
+    {
+      "name": "Дом",
+      "capacity": 15000,
+      "id": 1
+    },
+    {
+      "name": "Еда",
+      "capacity": 10000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Машина",
+      "capacity": 7000
+    },
+    {
+      "name": "Testttttt",
+      "capacity": 25000,
+      "id": 4
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "12.06.2017 19:49:02",
+      "description": "Подарили еду в гостях"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "13.06.2017 19:49:02",
+      "description": "Купил посудомоечную машину"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "17.06.2017 14:00:48",
+      "id": 3,
+      "description": "Поход в окей с баллами. Бесплатная еда"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "17.06.2017 14:00:58",
+      "id": 4,
+      "description": "Закупка на неделю"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "10.06.2017 14:01:58",
+      "id": 5,
+      "description": "Заправка + проход ТО"
+    },
+    {
+      "type": "income",
+      "amount": 20000,
+      "category": 4,
+      "date": "19.02.2019 21:36:09",
+      "descriptin": "ЗП",
+      "id": 6
+    },
+    {
+      "type": "outcome",
+      "amount": 3000,
+      "category": 4,
+      "date": "19.02.2019 23:50:48",
+      "descriptin": "esfsef",
+      "id": 7
+    },
+    {
+      "type": "outcome",
+      "amount": 5000,
+      "category": 4,
+      "date": "20.02.2019 00:01:02",
+      "descriptin": "ЗП",
+      "id": 8
+    },
+    {
+      "type": "outcome",
+      "amount": 10000,
+      "category": 4,
+      "date": "20.02.2019 00:01:28",
+      "descriptin": "ЗП",
+      "id": 9
+    },
+    {
+      "type": "outcome",
+      "amount": 30000,
+      "category": 1,
+      "date": "20.02.2019 00:02:03",
+      "descriptin": "ЗП",
+      "id": 10
+    }
+  ]
+}
